@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+   display: flex;
+   width: 30vw;
+    height: 100px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    list-style: none;
+}
+
+
+.link {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: chocolate;
+    text-decoration: none;
+}
+
+.active {
+    color: maroon;
+}
+
+
+.link1{
+    box-shadow: 0px 0px 10px;
+}
+
+.active1{
+    color: darkred;
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,105 @@
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px !important;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.menu li{
+    border: 2px solid brown;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+    font-size: 20px;
+}
+
+
+.menu2{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px !important;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+
+}
+
+.menu2 li{
+    width: 280px;
+    height: 330px;
+    border: 2px solid brown;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+.menu2 li img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+
+.menu3{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu3 li{
+    border: 2px solid darkred;
+    width: 50px;
+    height: 50px;
+    margin: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.addCats {
+    margin-left: 50px;
+}
+
+.addCats button{
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
